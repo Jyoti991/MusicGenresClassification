@@ -66,7 +66,7 @@ model.summary()
 
 print("Training ...")
 batch_size = 35  # num of training examples per minibatch
-num_epochs = 10
+num_epochs = 400
 history = model.fit(
     features.train_X,
     features.train_Y,
