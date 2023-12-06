@@ -6,6 +6,7 @@ from keras.layers import Dense
 from keras.optimizers import Adam
 from matplotlib import pyplot as plt
 import keras
+import tensorflow as tf
 
 from extract_feature import *
 # set logging level
