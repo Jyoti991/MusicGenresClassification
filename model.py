@@ -6,6 +6,7 @@ from keras.layers import Dense
 from keras.optimizers import Adam
 from matplotlib import pyplot as plt
 import keras
+import tensorflow as tf
 
 from extract_feature import *
 # set logging level
@@ -157,4 +158,3 @@ from sklearn.metrics import classification_report
 print(classification_report(y_true, y_pred, target_names=labels))
 
 print('done')
-
